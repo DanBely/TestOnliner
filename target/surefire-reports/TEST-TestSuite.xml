@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="56.524" tests="1" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="118.474" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_11\jre\bin"/>
@@ -60,77 +60,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="xTest" classname="Tests.MainTest" time="56.524">
-    <failure type="java.lang.AssertionError:">java.lang.AssertionError: null
-	at TestForms.ForumCommentForm.assertMessages(ForumCommentForm.java:56)
-	at Tests.TestForumComment.runTest(TestForumComment.java:30)
-	at Tests.MainTest.runTest(MainTest.java:34)
-</failure>
-    <system-out><![CDATA[20:18:15,882  INFO - browser driver was constructed
-20:18:15,884  INFO - Browser 'firefox' ready...
-20:18:15,964  INFO - ------------------------------------------------------------------------
-20:18:15,964  INFO - =====================  Test case: 'Tests.MainTest' =====================
-20:18:15,964  INFO - ------------------------------------------------------------------------
-20:18:15,964  INFO - --------==[ Preconditions ]==--------
-20:18:15,965  INFO - --------==[ Step 1 ]==--------
-20:18:17,020  INFO - --------==[ Step 2 ]==--------
-20:18:17,111  INFO - Form 'Login page' appears in 84msec
-20:18:17,162  INFO - --------==[ Step 3 ]==--------
-20:18:17,204  INFO - Text Field 'Enter username' :: Typing 'KronosJuniorL'
-20:18:17,657  INFO - Text Field 'Enter password' :: Typing '123456kak'
-20:18:17,774  INFO - Button 'Enter on account' :: Clicking
-20:18:17,924  INFO - --------==[ Step 4 ]==--------
-20:18:24,804  INFO - --------==[ Step 5 ]==--------
-20:18:26,189  INFO - --------==[ Step 1 ]==--------
-20:18:26,246  INFO - Form 'Main page' appears in 57msec
-20:18:26,302  INFO - Text Field 'Enter request' :: Typing 'HTC One'
-20:18:26,845  INFO - Button 'click Search' :: Clicking
-20:18:27,215  INFO - --------==[ Step 2 ]==--------
-20:18:29,930  INFO - CheckBox 'Chose first item' :: Clicking
-20:18:30,314  INFO - CheckBox 'Chose second item' :: Clicking
-20:18:30,744  INFO - Button 'click Compare' :: Clicking
-20:18:30,975  INFO - --------==[ Step 3 ]==--------
-20:18:34,380  INFO - --------==[ Step 1 ]==--------
-20:18:34,429  INFO - Form 'Baraholka page' appears in 48msec
-20:18:34,465  INFO - --------==[ Step 2 ]==--------
-20:18:34,517  INFO - Button 'click Baraholka' :: Clicking
-20:18:34,696  INFO - --------==[ Step 4 ]==--------
-20:18:37,194  INFO - Button 'click Create theme' :: Clicking
-20:18:37,448  INFO - --------==[ Step 5 ]==--------
-20:18:38,539  INFO - --------==[ Step 6 ]==--------
-20:18:40,074  INFO - Text Field 'Enter title' :: Typing 'Hello Beacon'
-20:18:40,480  INFO - Text Field 'Enter message' :: Typing 'I love beacon'
-20:18:40,743  INFO - Text Field 'Enter short message' :: Typing 'I love beacon'
-20:18:41,000  INFO - Text Field 'Enter price' :: Typing '10'
-20:18:41,100  INFO - Button 'Add advert' :: Clicking
-20:18:41,292  INFO - --------==[ Step 7 ]==--------
-20:18:42,461  INFO - --------==[ Step 1 ]==--------
-20:18:42,526  INFO - Form 'Catalog Page' appears in 64msec
-20:18:42,560  INFO - --------==[ Step 2 ]==--------
-20:18:42,610  INFO - Button 'click Catalog' :: Clicking
-20:18:42,908  INFO - --------==[ Step 3 ]==--------
-20:18:53,578  INFO - Link 'click Section' :: Clicking
-20:18:53,847  INFO - --------==[ Step 4 ]==--------
-20:18:55,430  INFO - Text Field 'Enter min price' :: Typing '300'
-20:18:55,552  INFO - Text Field 'Enter max price' :: Typing '500'
-20:18:55,667  INFO - Text Field 'Enter year' :: Typing '2014'
-20:18:58,450  INFO - Button 'click Search' :: Clicking
-20:18:58,693  INFO - --------==[ Step 5 ]==--------
-20:19:00,809  INFO - Button 'click Table view' :: Clicking
-20:19:01,000  INFO - --------==[ Step 6 ]==--------
-20:19:02,210  INFO - --------==[ Step 1 ]==--------
-20:19:02,256  INFO - Form 'Forum page' appears in 45msec
-20:19:02,295  INFO - --------==[ Step 2 ]==--------
-20:19:02,348  INFO - Button 'click Forumbar' :: Clicking
-20:19:02,617  INFO - --------==[ Step 3 ]==--------
-20:19:04,822  INFO - Link 'click Popular theme' :: Clicking
-20:19:05,017  INFO - --------==[ Step 4 ]==--------
-20:19:09,172  INFO - Text Field 'Enter message' :: Typing 'Cool'
-20:19:09,388  INFO - Button 'click Send' :: Clicking
-20:19:09,653  INFO - --------==[ Step 5 ]==--------
-20:19:12,482  WARN - 
-20:19:12,482  WARN - >>>>>>>> TEST FAILED <<<<<<<<
-20:19:12,482  WARN - 
-]]></system-out>
-  </testcase>
+  <testcase name="xTest" classname="Tests.MainTest" time="118.474"/>
 </testsuite>

@@ -18,6 +18,7 @@ public class TestItem extends BaseTest {
     @Override
     public void runTest() {
         logger.step(1);
+        browser.waitForPageToLoad();
         ItemForm itf = new ItemForm();
         itf.gotoCatalog();
         logger.step(2);
