@@ -29,7 +29,7 @@ public class ForumCommentForm extends BaseForm {
     private Button send_btn = new Button(By.xpath("//*[@class='btn-style btn-send']"), "click Send");
     private Link popularTheme_ln = new Link(By.xpath("//a[@href='./viewtopic.php?t=10378336']"), "click Popular theme");
     private Label forumBar_lb = new Label(By.className("onav__ul"), "Verify main buttonbar");
-    private Label user_lb = new Label(By.partialLinkText(username), "Verify message");
+    private Label comment_lb = new Label(By.id("postmessage"), "Verify message");
 
     public ForumCommentForm() {
         super(formlocator, "Forum page");
@@ -52,8 +52,8 @@ public class ForumCommentForm extends BaseForm {
         send_btn.click();
 	}
     
-    public void assertMessages(){
-        assert(user_lb.isPresent());
+    public void assertTextBox(){
+        assert(comment_lb.isPresent());
     }
     
 }

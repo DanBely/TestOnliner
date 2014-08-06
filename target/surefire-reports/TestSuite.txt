@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 36.784 sec - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 60.771 sec <<< FAILURE! - in TestSuite
+xTest(Tests.MainTest)  Time elapsed: 56.524 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at TestForms.ForumCommentForm.assertMessages(ForumCommentForm.java:56)
+	at Tests.TestForumComment.runTest(TestForumComment.java:30)
+	at Tests.MainTest.runTest(MainTest.java:34)
+

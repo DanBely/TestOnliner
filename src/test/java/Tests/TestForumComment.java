@@ -27,6 +27,6 @@ public class TestForumComment extends BaseTest {
 	logger.step(4);
         fcf.writeComment();
         logger.step(5);
-        fcf.assertMessages();
+        fcf.assertTextBox();
     }
 }
