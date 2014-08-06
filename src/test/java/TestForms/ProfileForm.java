@@ -25,7 +25,7 @@ public class ProfileForm extends BaseForm{
     String city = "Минск";
     String interests = "beacon";
     String occupation = "Tester";
-    String username = "KronosJuniorL";
+    String username = "SorryGuys";
     
     private TextBox city_tb = new TextBox(By.name("city"), "Enter city");
     private TextBox occupation_tb = new TextBox(By.name("occupation"), "Enter occupation");

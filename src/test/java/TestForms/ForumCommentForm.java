@@ -22,7 +22,7 @@ public class ForumCommentForm extends BaseForm {
     private static By formlocator = By.className("ten-skin");
     
     String text = "Cool";
-    String username = "KronosJuniorL";
+    String username = "SorryGuys";
     
     private TextBox comment_tb = new TextBox(By.id("postmessage"), "Enter message");
     private Button forum_btn = new Button(By.xpath("//*[@class='onav__ul']/li[7]"), "click Forumbar");

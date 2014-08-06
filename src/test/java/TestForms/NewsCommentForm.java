@@ -22,7 +22,7 @@ public class NewsCommentForm extends BaseForm{
     private static By formlocator = By.className("ten-skin");
     
     String msg = "Крутой фильм";
-    String username = "KronosJuniorL";
+    String username = "SorryGuys";
     
     private TextBox comment_tb = new TextBox(By.name("message"), "Enter Comment");
     private Button send_btn = new Button(By.xpath("//*[@class='btn-2-green btn-2-green-send']"), "click Send");
