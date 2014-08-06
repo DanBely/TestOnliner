@@ -21,7 +21,7 @@ public class ItemForm  extends BaseForm{
     String item = "Nokia Lumia 930";
     String sections = "Мобильные телефоны";
    
-    private Link catalog_ln = new Link(By.xpath("//*[@class='onav__ul']/li[1]/a"), "click Catalog");
+    private Link catalog_ln = new Link(By.xpath("*//div[2]/div/div[1]/dl[2]/dt/a"), "click Catalog");
     private Link section_ln = new Link(By.partialLinkText(sections), "click Section");
     private Link item_ln = new Link(By.partialLinkText(item), "click Item");
 
