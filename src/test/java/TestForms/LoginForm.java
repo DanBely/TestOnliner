@@ -20,7 +20,7 @@ public class LoginForm extends BaseForm {
    
    private static By formlocator= By.id("minWidth");
    
-   String username = "fortestqa";
+   String username = "KronosJuniorL";
    String password = "123456kak";
     
    private TextBox login_tb = new TextBox(By.id("username"), "Enter username");

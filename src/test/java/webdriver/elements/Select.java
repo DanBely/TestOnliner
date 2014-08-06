@@ -2,9 +2,7 @@ package webdriver.elements;
 
 import java.util.List;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.remote.RemoteWebElement;
 
 /**
  * Class, Describing element select
@@ -38,13 +36,11 @@ public class Select extends BaseElement {
     }
     
     public void Select_in(String value){
-       WebDriver driver = browser.getDriver();
-       RemoteWebElement selects = (RemoteWebElement) driver.findElement(locator);
-       selects.click();
-       List<WebElement> options = selects.findElements(By.tagName("option"));
+       WebElement select = (WebElement) browser.getDriver().findElement(locator);
+       List<WebElement> options = select.findElements(By.tagName("option"));
        for (WebElement option : options){
-            if(value.equals(option.getText())){
-               option.click();
+            if((option.getText()).equals(value)){
+                option.click();
             }
        }
     }
