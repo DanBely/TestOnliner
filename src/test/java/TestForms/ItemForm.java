@@ -8,7 +8,6 @@ package TestForms;
 
 import org.openqa.selenium.By;
 import webdriver.BaseForm;
-import webdriver.elements.Button;
 import webdriver.elements.Link;
 
 /**
@@ -22,7 +21,7 @@ public class ItemForm  extends BaseForm{
     String item = "Nokia Lumia 930";
     String sections = "Мобильные телефоны";
    
-    private Button catalog_btn = new Button(By.xpath("//*[@class='onav__ul']/li[1]"), "click Catalog");
+    private Link catalog_ln = new Link(By.xpath("//*[@href='http://catalog.onliner.by/']"), "click Catalog");
     private Link section_ln = new Link(By.partialLinkText(sections), "click Section");
     private Link item_ln = new Link(By.partialLinkText(item), "click Item");
 
@@ -31,7 +30,7 @@ public class ItemForm  extends BaseForm{
         }	
     
     public void gotoCatalog(){
-	catalog_btn.click();
+	catalog_ln.click();
 	}
     
     public void gotoSection(){
