@@ -41,10 +41,12 @@ public class ThemeForumForm extends BaseForm{
 	}
     
     public void gotoOfftopick(){
+        assert(offtopick_ln.isPresent());
         offtopick_ln.click();
 	}
     
     public void createTheme(){
+        assert(createNewTheme_btn.isPresent());
 	createNewTheme_btn.click();
 	}
     

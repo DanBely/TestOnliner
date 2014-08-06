@@ -34,6 +34,7 @@ public class ItemForm  extends BaseForm{
 	}
     
     public void gotoSection(){
+        assert(section_ln.isPresent());
 	section_ln.click();
 	}
     

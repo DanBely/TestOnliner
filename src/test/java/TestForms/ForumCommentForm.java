@@ -44,11 +44,13 @@ public class ForumCommentForm extends BaseForm {
 	}
 	
     public void gotoPopularTheme(){
+        assert(popularTheme_ln.isPresent());
         popularTheme_ln.click();
 	}
 	
     public void writeComment(){
         comment_tb.type(text);
+        assert(send_btn.isPresent());
         send_btn.click();
 	}
     

@@ -43,6 +43,8 @@ public class SearchItemAndCompareForm extends BaseForm {
 	}
     
     public void compare(){
+        assert(item1_cb.isPresent());
+        assert(item2_cb.isPresent());
         item1_cb.click();
         item2_cb.click();
         compare_btn.click();

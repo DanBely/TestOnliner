@@ -50,11 +50,13 @@ public class CreateNewAdvertForm extends BaseForm {
 	}
 	
     public void createTheme(){
+        assert(createTheme_btn.isPresent());
 	createTheme_btn.click();
 	}
 	
     public void fillAdvert(){
         section_slt.Select_in(section_text);
+        assert(title_tb.isPresent());
 	title_tb.type(title);
         msg_tb.type(msg);
         short_msg_tb.type(msg);

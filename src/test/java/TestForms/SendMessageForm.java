@@ -42,10 +42,12 @@ public class SendMessageForm extends BaseForm {
         }
     
     public void gotoProfile(){
+        assert(username_ln.isPresent());
 	username_ln.click();
 	}
     
     public void MyMsg(){
+        assert(myMsg_ln.isPresent());
 	myMsg_ln.click();
 	}    
     

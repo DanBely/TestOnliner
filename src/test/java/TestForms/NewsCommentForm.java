@@ -39,6 +39,7 @@ public class NewsCommentForm extends BaseForm{
 	}
         
     public void gotoPopularNews(){
+        assert(popularNews_ln.isPresent());
 	popularNews_ln.click();
 	}
     

@@ -43,6 +43,7 @@ public class ProfileForm extends BaseForm{
         }
     
     public void gotoProfile(){
+        assert(username_ln.isPresent());
 	username_ln.click();
 	}
     
@@ -64,6 +65,7 @@ public class ProfileForm extends BaseForm{
         city_tb.type(city);
         occupation_tb.type(interests);
         interests_tb.type(occupation); 
+        assert(saveInfo_btn.isPresent());
         saveInfo_btn.click();
 	} 
     
@@ -72,8 +74,11 @@ public class ProfileForm extends BaseForm{
 	}        
     
     public void checkSettings(){
+        assert(hide_cb.isPresent());
         hide_cb.click();
+        assert(email_cb.isPresent());
         email_cb.click();
+        assert(saveInfo_btn.isPresent());
         saveInfo_btn.click();
 	}
 }

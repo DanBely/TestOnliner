@@ -58,10 +58,12 @@ public class FindMoreItemsForm extends BaseForm {
     }
     
     public void chooseSection(){
+        assert(section_ln.isPresent());
 	section_ln.click();
     }
     
     public void fillSearch(){
+        assert(type_slt.isPresent());
 	priceMin_tb.type(min_price);
 	priceMax_tb.type(max_price);
         year_tb.type(year);
