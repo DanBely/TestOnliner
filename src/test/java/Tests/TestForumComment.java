@@ -24,9 +24,10 @@ public class TestForumComment extends BaseTest {
         fcf.gotoForum();
         logger.step(3);
 	fcf.gotoPopularTheme();
-	logger.step(4);
-        fcf.writeComment();
-        logger.step(5);
+        logger.step(4);
         fcf.assertTextBox();
+	logger.step(5);
+        fcf.writeComment();
+        
     }
 }
